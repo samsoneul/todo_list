@@ -39,7 +39,7 @@ const TaskList: React.FC = () => {
 
   return (
     <div className="max-w-lg mx-auto mt-8 p-4 bg-white shadow-md rounded-md">
-      <h1 className="text-3xl font-bold mb-4 text-purple-600">✨ My Task List ✨</h1>
+      <h1 className="text-3xl font-bold mb-4 text-purple-600"> My Task List </h1>
       <ul>
         {tasks.map((task) => (
           <li
